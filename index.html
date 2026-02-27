@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Civic Intelligence Platform</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- Animated background -->
+<div class="bg-animation"></div>
+
+<div class="container">
+
+    <h1 class="title">LokSetu-AI</h1>
+    <p class="subtitle">Find Government Schemes Instantly with AI</p>
+
+    <!-- Upload -->
+    <div class="card">
+        <h2>📄 Upload Document</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Check Eligibility</button>
+    </div>
+
+    <!-- Voice -->
+    <div class="card">
+        <h2>🎤 Voice Assistant</h2>
+        <button onclick="startVoice()" class="voice-btn">Start Speaking</button>
+    </div>
+
+    <!-- Text -->
+    <div class="card">
+        <h2>💬 Tell About Yourself</h2>
+        <textarea id="userText" placeholder="Example: I am a farmer from Odisha"></textarea>
+        <button onclick="sendText()">Get Schemes</button>
+    </div>
+
+    <!-- Result -->
+    <div class="card result-card">
+        <h2>✨ AI Recommendation</h2>
+        <div id="loader" class="loader hidden"></div>
+        <div id="result" class="typing">Your schemes will appear here...</div>
+    </div>
+
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

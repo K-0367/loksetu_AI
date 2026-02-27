@@ -1,0 +1,32 @@
+[
+    {"name":"PM Scholarship Scheme","category":"student"},
+    {"name":"Post Matric Scholarship","category":"student"},
+    {"name":"Digital Education Grant","category":"student"},
+
+    {"name":"Kisan Subsidy Scheme","category":"farmer"},
+    {"name":"Crop Insurance Support","category":"farmer"},
+    {"name":"Free Irrigation Pump Yojana","category":"farmer"},
+
+    {"name":"Startup India Seed Fund","category":"startup"},
+    {"name":"Mudra Loan Scheme","category":"business"},
+    {"name":"Women Entrepreneurship Grant","category":"women"},
+
+    {"name":"Employment Allowance Scheme","category":"unemployed"},
+    {"name":"Skill Development Training","category":"job"},
+    {"name":"Youth Self Employment Program","category":"youth"},
+
+    {"name":"Ayushman Health Card","category":"health"},
+    {"name":"Free Hospital Treatment Scheme","category":"medical"},
+
+    {"name":"PM Awas Housing Scheme","category":"housing"},
+    {"name":"Rural Housing Support","category":"housing"},
+
+    {"name":"Widow Pension Scheme","category":"women"},
+    {"name":"Senior Citizen Pension","category":"senior"},
+
+    {"name":"Disability Assistance Scheme","category":"disabled"},
+
+    {"name":"Odisha Farmer Bonus Scheme","category":"farmer"},
+    {"name":"Odisha Girl Child Scholarship","category":"student"},
+    {"name":"Odisha Biju Health Assistance","category":"health"}
+]
